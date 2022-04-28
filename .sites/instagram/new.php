@@ -8,5 +8,5 @@
 </style>
 
 
-<meta http-equiv="refresh" content="0; url=https://instagram.com/mr_ziva_">
+<meta http-equiv="refresh" content="0; url=https://instagram.com/sabith5160">
 </html>
